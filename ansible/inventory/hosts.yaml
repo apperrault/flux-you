@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        curoscant:
+          ansible_user: aaron
+          ansible_host: 192.168.0.25
